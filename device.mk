@@ -275,6 +275,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.radio.force_ltd_sys_ind=1 \
     persist.vendor.radio.manual_nw_rej_ct=1
 
+# QMI
+PRODUCT_PACKAGES += \
+    libjson
+
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     all \
