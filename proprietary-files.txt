@@ -133,6 +133,7 @@ vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
 vendor/lib/libFlacSwDec.so|01c7a51d93c2fe447e23c1210832b39b171393e3
 vendor/lib/libgcs-calwrapper.so|39f85bb7e1b371c951d085086f5fdb20f074b21d
 vendor/lib/libgcs-ipc.so|c0d991ca572929c65f3382a34c72bb3c062fcc0b
+vendor/lib/libfcsam.so
 vendor/lib/libgcs-osal.so|9f023437197fd01fdadd61844ba0bff88dc8d6a4
 vendor/lib/libgcs.so|5b5073d802e5563f1f20a8a80b3ab9552e2bc254
 vendor/lib/libhdmipassthru.so|718401f9872acaafbabe3fb1f44264c6c5da3c53
@@ -246,12 +247,6 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # Camera - MIUI
-vendor/lib/libFace3DTA.so|3d1dd9fcdc6166ce64b558ff94d227643f648068
-vendor/lib/libFace3D_hlos.so|3ab549b0d56db8f144b846cdf13df4edd25f2285
-vendor/lib/libQ6MSFR_manager_stub.so|02ff281cd42917ec169a05d606de70cf0063c526
-vendor/lib/libbitmlengine.so|dc8204676e4569c12a734ec1b98d03aedee3b546
-vendor/lib/libcamera_nn_stub.so|e70adb7aa1ed248a27ba89a71e7ec52495ede036
-vendor/lib/libcamerapostproc.so|61d7f2ce7e8a9f63518331cb4ce306eb5bede52d
 vendor/lib/libcamxexternalformatutils.so|ba2df45cc64c66de969a150b758cbd387169de6b
 vendor/lib/libcamxfacialfeatures.so|05cd39478a63796a43be26862aba1be6660a9050
 vendor/lib/libcamxfdalgo.so|b7b417f1c57521355e8e10b8a127cfd4fabdbec3
@@ -262,18 +257,6 @@ vendor/lib/libcamxncs.so|8ad4bf16b4a8784d7a7d13b5d73ef2a5397468c8
 vendor/lib/libcamxstatscore.so|5f02c6d29d7c645f493762c3b1ad402ef99bb4e1
 vendor/lib/libcamxswprocessalgo.so|22a38042c0520d84e5ce8781e5aa1b21c4c0a5ee
 vendor/lib/libcamxtintlessalgo.so|b988faae860d549cee71a3d5f3d2f01acd77f284
-vendor/lib/libchilog.so|bb6e1940f2073c5eb2d2aaeb9de8a9c2b788f29f
-vendor/lib/libcom.qti.chinodeutils.so|7d36d6bc0a443d34e0b50f344190a3467f957525
-vendor/lib/libface3d_dev.so|b305b13438ac06916a7102f44ca37dbc2afc4fb1
-vendor/lib/libipebpsstriping.so|2b33de75eb902abca711982db3f393dad7f6db72
-vendor/lib/libmmcamera_faceproc.so|bff36589f38f4a4447f7a9543aa6b4b7045cf825
-vendor/lib/libmmcamera_faceproc2.so|21b308e0c901c94a1647f8d194f74635918e6943
-vendor/lib/libnanopb.so|1189d5617875576437cf14ff77bcaa2beaf19775
-vendor/lib/libofflinelog.so|35c494fc480f167d18bb1b66885e413ea13e1c7e
-vendor/lib/libos.so|16d49ebd400ab22b421242849fc3ae2313a080fb
-vendor/lib/libswregistrationalgo.so|1ebf035d4b87394a8f58784d46e818288f561324
-vendor/lib/libsynx.so|70989469e7596d6f4dc2cb9569a1d8c6f04bc18e
-vendor/lib/libthreadutils.so|85d2502fc45c0073cb8841f414d6149e70d0a4f3
 vendor/lib64/hw/camera.qcom.so|bdc33be3a23b9f08bf46909d82a0a9927bebd79d
 vendor/lib64/hw/com.qti.chi.override.so|0647e690ec3fae58eda37b86825df810ebc3e50c
 vendor/lib64/lib_sr_models.so|f805fe48ec5a7dc6583db9805d6eff4f315ee76c
