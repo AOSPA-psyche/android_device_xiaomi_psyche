@@ -700,10 +700,8 @@ vendor/firmware/ipa_uc.mdt|beb16cd684fcf70b351957ad5fb0338f7dd5ab7a
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/feature_enabler_client
 vendor/bin/ppd
-vendor/bin/qdcmss
 vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/init/feature_enabler_client.rc
-vendor/etc/init/qdcmss.rc
 vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/lib64/libdisp-aba.so
 vendor/lib64/libdpps.so
