@@ -104,8 +104,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl-qti.recovery \
     android.hardware.boot@1.2-service
 
-$(call soong_config_set,QTI_GPT_UTILS,USE_BSG_FRAMEWORK,false)
-
 # Camera
 PRODUCT_VENDOR_PROPERTIES += \
     camera.disable_zsl_mode=true
@@ -123,14 +121,12 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     libcamera2ndk_vendor \
-    libpng.vendor \
     libstdc++.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 PRODUCT_PACKAGES += \
-    libpiex_shim \
-    libutilscallstack.vendor
+    libpiex_shim
 
 # Charging
 PRODUCT_VENDOR_PROPERTIES += \
@@ -145,7 +141,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
 PRODUCT_PACKAGES += \
-    android.hardware.ir-service.xiaomi
+    android.hardware.ir@1.0-impl \
+    android.hardware.ir@1.0-service
 
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
@@ -178,8 +175,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true
 
 PRODUCT_PACKAGES += \
-    android.hardware.drm-service.clearkey \
-    libcrypto_shim.vendor
+    android.hardware.drm@1.4-service.clearkey
 
 # Fastboot
 PRODUCT_PACKAGES += \
@@ -207,10 +203,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl-qti \
     android.hardware.health@2.1-service
-
-# GPS
-PRODUCT_PACKAGES += \
-    libcurl.vendor
 
 # Init
 PRODUCT_COPY_FILES += \
@@ -279,10 +271,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.radio.force_ltd_sys_ind=1 \
     persist.vendor.radio.manual_nw_rej_ct=1
 
-# QMI
-PRODUCT_PACKAGES += \
-    libjson
-
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     all \
@@ -347,9 +335,6 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
-# USB
-PRODUCT_HAS_GADGET_HAL := true
-
 # Vendor
 $(call inherit-product, vendor/xiaomi/psyche/psyche-vendor.mk)
 
@@ -359,8 +344,7 @@ PRODUCT_COPY_FILES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4.vendor \
-    android.hardware.neuralnetworks@1.3.vendor
+    android.hardware.drm@1.4.vendor
 
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v33/arm/arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_foundation-v33.so \
