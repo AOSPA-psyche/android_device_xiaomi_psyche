@@ -12,7 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+<<<<<<< HEAD
 DEVICE_PATH := device/xiaomi/psyche
+=======
+DEVICE_PATH := device/xiaomi/alioth
+HARDWARE_PATH := hardware/xiaomi
+>>>>>>> 53de4ab (alioth: Inherit HIDL FCM from hw/xiaomi)
 
 # A/B
 AB_OTA_UPDATER := true
@@ -87,7 +92,11 @@ BOARD_USES_GENERIC_KERNEL_IMAGE := true
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/configs/vintf/xiaomi_vendor_framework_compatibility_matrix.xml \
+<<<<<<< HEAD
     hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml
+=======
+    $(HARDWARE_PATH)/vintf/xiaomi_framework_compatibility_matrix.xml
+>>>>>>> 53de4ab (alioth: Inherit HIDL FCM from hw/xiaomi)
 
 DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/configs/vintf/manifest.xml \

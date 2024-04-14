@@ -13,6 +13,7 @@
      limitations under the License.
 -->
 <compatibility-matrix version="1.0" type="framework">
+<<<<<<< HEAD
     <!-- Fingerprint -->
     <hal format="hidl" optional="true">
         <name>vendor.goodix.hardware.biometrics.fingerprint</name>
@@ -45,6 +46,11 @@
     <!-- Touchfeature -->
     <hal format="hidl" optional="true">
         <name>vendor.xiaomi.hardware.touchfeature</name>
+=======
+    <!-- Sensors -->
+    <hal format="hidl">
+        <name>android.hardware.sensors</name>
+>>>>>>> 53de4ab (alioth: Inherit HIDL FCM from hw/xiaomi)
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
