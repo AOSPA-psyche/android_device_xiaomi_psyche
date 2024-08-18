@@ -1,0 +1,2 @@
+# IR device
+type lirc_device, dev_type;
