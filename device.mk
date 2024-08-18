@@ -164,6 +164,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_display_power_timer_ms=1000 \
     ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
+TARGET_USE_AIDL_QTI_MEMTRACK := true
+
 # DPM
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.dpmhalservice.enable=1
