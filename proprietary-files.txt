@@ -247,16 +247,6 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # Camera - MIUI
-vendor/lib/libcamxexternalformatutils.so|ba2df45cc64c66de969a150b758cbd387169de6b
-vendor/lib/libcamxfacialfeatures.so|05cd39478a63796a43be26862aba1be6660a9050
-vendor/lib/libcamxfdalgo.so|b7b417f1c57521355e8e10b8a127cfd4fabdbec3
-vendor/lib/libcamxfdengine.so|51b83348b3b80567afc3481d9b06e2a7e090c0dc
-vendor/lib/libcamxifestriping.so|9dde90928b8086be1b170adc3ebe098f36f2940e
-vendor/lib/libcamximageformatutils.so|d0764ca04ac897cb918f625e578df37d796496db
-vendor/lib/libcamxncs.so|8ad4bf16b4a8784d7a7d13b5d73ef2a5397468c8
-vendor/lib/libcamxstatscore.so|5f02c6d29d7c645f493762c3b1ad402ef99bb4e1
-vendor/lib/libcamxswprocessalgo.so|22a38042c0520d84e5ce8781e5aa1b21c4c0a5ee
-vendor/lib/libcamxtintlessalgo.so|b988faae860d549cee71a3d5f3d2f01acd77f284
 vendor/lib64/hw/camera.qcom.so|bdc33be3a23b9f08bf46909d82a0a9927bebd79d
 vendor/lib64/hw/com.qti.chi.override.so|0647e690ec3fae58eda37b86825df810ebc3e50c
 vendor/lib64/lib_sr_models.so|f805fe48ec5a7dc6583db9805d6eff4f315ee76c
