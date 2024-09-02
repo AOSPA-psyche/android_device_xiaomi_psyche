@@ -106,10 +106,10 @@ vendor/etc/acdbdata/Tutu/Tutu_workspaceFile.qwsp|ff9f5213a1da0fa48d47e9eafa9dc18
 
 # Audio - MIUI
 vendor/bin/audioflacapp|b8277fa951476e4212380c5d29f8d9732e38eb32
-vendor/lib/hw/audio.primary.kona.so|9ddc7d3f9d943ccf67f7641ceba1538322bd1dcc
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.psyche.so;FIX_SONAME
 vendor/lib/hw/sound_trigger.primary.kona.so|66ab083880a567a7d559ca0b123451db3b20906d
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|ee89b7cb4e0476688ac8c1a669dfe89c660b1a76
-vendor/lib/liba2dpoffload.so|12e4c5c18a0c34c4d596fb06bf60194ec084c23f
+vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_psyche.so;FIX_SONAME
 vendor/lib/libacdb-fts.so|1a69c22267f913b37bac33494b422660aaf874ba
 vendor/lib/libacdbloader.so|fa71cd074b858db4a9fcaba8ea84dbeab184b659
 vendor/lib/libacdbrtac.so|b3f2634671c4f5101afa0b41bcf5bbb02ec866e1
@@ -157,7 +157,7 @@ vendor/lib/libOmxWmaDec.so|f0d9d56147bb84972ab651424ad464ee95b3d5cf
 vendor/lib/libqtigef.so|3fba1e7a22a0b75be6bace643aaa8ead110c1233
 vendor/lib/libresampler.so|8edd3e46d46ad53469487f172219aec3a5a840b5
 vendor/lib/libsmwrapper.so|71a8166b84c4c9a06f1308370d23e68a1b243e0e
-vendor/lib/libssrec.so|9af472dcf2dac6a348e4a1592c7ef7de581783bc
+vendor/lib/libssrec.so:vendor/lib/libssrec_psyche.so;FIX_SONAME
 vendor/lib/libsurround_3mic_proc.so|e8e086123e0c1dc17f008f97edb3611cd4c702e1
 vendor/lib/libtinycompress.so|8843c03a629eb6b3f48227a41bc496d4462c6b1e
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so|ed13a1c435bbc1320ceedeafab62db39fec2e34d

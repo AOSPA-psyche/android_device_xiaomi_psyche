@@ -48,6 +48,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.config.vc_call_vol_steps=11 \
     ro.vendor.audio.dolby.dax.support=true \
     ro.vendor.audio.dolby.surround.enable=true \
+    ro.hardware.audio.primary=psyche \
     ro.vendor.audio.enhance.support=false \
     ro.vendor.audio.gain.support=true \
     ro.vendor.audio.karaok.support=true \
