@@ -132,7 +132,6 @@ vendor/lib/libcapiv2svacnn.so|b00484a75db67ea914a507eb48b63404dfbc7654
 vendor/lib/libcapiv2svarnn.so|97f6bd6b25479fbf0f4f7cb06d9f1a462266f22a
 vendor/lib/libcapiv2vop.so|1cceaefcc1ca55de5bc932a846091e6702c5d508
 vendor/lib/libdrc.so|b066f176f119847059c5aa148f73e1b042fbeab3
-vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
 vendor/lib/libFlacSwDec.so|01c7a51d93c2fe447e23c1210832b39b171393e3
 vendor/lib/libgcs-calwrapper.so|39f85bb7e1b371c951d085086f5fdb20f074b21d
 vendor/lib/libgcs-ipc.so|c0d991ca572929c65f3382a34c72bb3c062fcc0b
