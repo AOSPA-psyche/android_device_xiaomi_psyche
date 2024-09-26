@@ -243,6 +243,35 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     IFAAService
 
+# Media
+MSM_VIDC_TARGET_LIST := kona
+
+include hardware/qcom/media/conf_files/$(TARGET_BOARD_PLATFORM)/$(TARGET_BOARD_PLATFORM).mk
+
+PRODUCT_COPY_FILES += \
+    device/qcom/common/vendor/media/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml
+
+PRODUCT_PACKAGES += \
+    android.hardware.media.c2@1.2.vendor \
+    init.qti.media.rc \
+    init.qti.media.sh \
+    libavservices_minijail.vendor \
+    libc2dcolorconvert \
+    libOmxCore \
+    libOmxVdec \
+    libOmxVenc \
+    libgui_vendor \
+    libjsoncpp.vendor \
+    libstagefrighthw
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    media.settings.xml=/vendor/etc/media_profiles_vendor.xml \
+    media.stagefright.thumbnail.prefer_hw_codecs=true \
+    ro.media.recorder-max-base-layer-fps=60
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.stagefright.omx_default_rank=0
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
