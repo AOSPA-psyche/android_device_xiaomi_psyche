@@ -881,6 +881,19 @@ vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so|4a4e9a146033ef324dfeda8a5
 vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so|808f08fdfc4a6e63eeb1f966a7f88e1161032dd1
 vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.2.so|b1ec1740029f160e4ad6c9ff4ceb180194faae1b
 
+# Media (Codec2)
+vendor/bin/hw/vendor.qti.media.c2@1.0-service
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
+vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
+vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
+vendor/etc/vintf/manifest/c2_manifest_vendor.xml
+vendor/lib/libqcodec2_base.so
+vendor/lib/libqcodec2_basecodec.so
+vendor/lib/libqcodec2_core.so
+vendor/lib/libqcodec2_platform.so
+vendor/lib/libqcodec2_utils.so
+vendor/lib/libqcodec2_v4l2codec.so
+
 # MMI
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
 vendor/bin/mmid
