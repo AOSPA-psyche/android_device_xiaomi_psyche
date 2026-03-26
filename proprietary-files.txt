@@ -67,8 +67,6 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin|bd7aa75d2f402e08f8d951f80d05c045e29
 vendor/lib/rfsa/adsp/misound_res.bin|3e6b5636d5d9e0d4a7c98e821aa7fbfcf8f40c83
 vendor/lib/rfsa/adsp/misound_res_headphone.bin|a67809404abbec960cfe3d1d7c99fce8567590f0
 vendor/lib/rfsa/adsp/misound_res_spk.bin|bcddfdf11759b41e88e14d724121bd26cd3c216f
-vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
-vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 
 # Audio (Configs) - MIUI
 vendor/etc/audio_cloud_control_white_list.xml|f17ef9e987c9e0ddeda7395050013a8c26950997
